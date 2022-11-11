@@ -2,6 +2,7 @@ version: '2'
 services:
   node-app:
     container_name: express-container
+    image: ahmedhaggagrady/node-app
     env_file:
       - ./.env
     depends_on:
